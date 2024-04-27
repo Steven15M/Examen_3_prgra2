@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="menucircular.master.cs" Inherits="ExamenFinal.menucircular" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </style>
+</head>
+<body>
+<nav class="menu">
+  <input type="checkbox" id="menu-toggler" class="menu-toggler">
+  <label for="menu-toggler"></label>
+  <ul>
+    <li class="menu-item">
+      <a href="#inicio">Inicio</a>
+    </li>
+    <li class="menu-item">
+      <a href="#agentes">Agentes</a>
+    </li>
+    <li class="menu-item">
+      <a href="#clientes">Clientes</a>
+    </li>
+  </ul>
+</nav>
+</body>
+</html>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
